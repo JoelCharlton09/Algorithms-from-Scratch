@@ -1,1 +1,5 @@
 # Algorithms-from-Scratch
+
+Machine learning and artificial intelligence are two of the most exciting fields in data science. With the community continuously growing and new extraordinary research being completed daily, there is always something new to learn. As part of this research comes new algorithms for data scientists, such as myself, to learn and understand when would be best to use this technique over another. It is one thing to understand which algorithms can be applied to a particular problem but it is another to know how such algorithms work and the mathematics behind them.
+
+This repo is me understanding and learning how these algorithms work. I reproduce the algorithms with my own code and apply them to some basic use cases. The goal of this repo is have reproduced the most well-known machine learning algorithms in my own code and to thoroughly understand the mathematics underlying such algorithms. I strongly feel this will deepner my machine learning knowledge even further and will help to understand why things could go wrong when choosing particular algorithms for a machine learning project.
