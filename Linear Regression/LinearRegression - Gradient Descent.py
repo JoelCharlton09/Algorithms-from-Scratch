@@ -1,4 +1,4 @@
-### Linear regression from scratch ###
+### Linear regression from scratch - Gradient Descent ###
 
 # Begin by creating a linear regression class using numpy
 import numpy as np
