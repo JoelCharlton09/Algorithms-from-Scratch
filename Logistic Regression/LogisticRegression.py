@@ -78,7 +78,12 @@ y_preds = clf.predict(X_test)
 accuracy = accuracy_score(y_test, y_preds)
 print("Test accuracy: {0:.3f}".format(accuracy))
 
+# Plot the confusion matrix
 conf_matrix = confusion_matrix(y_test, y_preds)
 conf_matrix_display = ConfusionMatrixDisplay(conf_matrix, display_labels=[0,1])
 conf_matrix_display.plot()
+plt.show()
+
+# Plot the loss curve
+plt.plot(range(clf.max_iter), clf.losses)
 plt.show()
